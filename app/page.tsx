@@ -317,22 +317,22 @@ export default function PhantomSkyImaging() {
             </p>
 
             <div className="psi-contact-info">
-              <a href="tel:+15555550100" className="psi-contact-item">
+              <a href="tel:+14846840579" className="psi-contact-item">
                 <div className="psi-contact-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.05 1.18 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                (555) 555-0100
+                (484) 684-0579
               </a>
-              <a href="mailto:info@phantomskyimaging.com" className="psi-contact-item">
+              <a href="mailto:joshuasaylor@phantomskyimaging.com" className="psi-contact-item">
                 <div className="psi-contact-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" strokeLinecap="round" strokeLinejoin="round"/>
                     <polyline points="22,6 12,13 2,6" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                info@phantomskyimaging.com
+                joshuasaylor@phantomskyimaging.com
               </a>
               <div className="psi-contact-item">
                 <div className="psi-contact-icon">
@@ -341,7 +341,7 @@ export default function PhantomSkyImaging() {
                     <circle cx="12" cy="10" r="3" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                Available across the region — contact us for coverage area
+                Serving Southeast Pennsylvania
               </div>
             </div>
           </div>
