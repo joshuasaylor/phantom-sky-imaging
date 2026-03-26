@@ -101,8 +101,8 @@ export default function PhantomSkyImaging() {
 
         <div className="psi-hero-stats">
           <div className="psi-stat">
-            <div className="psi-stat-num">200<span>+</span></div>
-            <div className="psi-stat-label">Properties Captured</div>
+            <div className="psi-stat-num">Part<span> 107</span></div>
+            <div className="psi-stat-label">FAA Certified Pilot</div>
           </div>
           <div className="psi-stat">
             <div className="psi-stat-num">4K<span>/</span>HD</div>
