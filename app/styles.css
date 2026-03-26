@@ -1051,6 +1051,32 @@ body {
   transform: translateY(-1px);
 }
 
+.psi-btn-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.psi-form-success {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 14px;
+  color: #a8d5a2;
+  letter-spacing: 0.02em;
+}
+
+.psi-form-error {
+  background: rgba(255,80,80,0.08);
+  border: 1px solid rgba(255,80,80,0.25);
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 14px;
+  color: #f08080;
+  letter-spacing: 0.02em;
+}
+
 /* ── FOOTER ──────────────────────────────── */
 
 .psi-footer-inner {
