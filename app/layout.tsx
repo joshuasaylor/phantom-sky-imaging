@@ -78,6 +78,9 @@ const schemaProfessionalService = {
     ],
   },
   knowsAbout: ['Drone Photography', 'Aerial Videography', 'Real Estate Marketing', 'Roofing Inspection', 'FAA Part 107 Regulations'],
+  sameAs: [
+    'https://share.google/GD8DWbMasJz5cZtdU',
+  ],
   slogan: 'Aerial Imagery Elevated.',
   contactPoint: {
     '@type': 'ContactPoint',
