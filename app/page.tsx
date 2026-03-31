@@ -296,16 +296,18 @@ export default function PhantomSkyImaging() {
             <div className="psi-tag">About Us</div>
             <h2 className="psi-section-title">Built for<br />Professionals</h2>
             <p className="psi-about-body">
-              Phantom Sky Imaging was founded with one goal: deliver
-              broadcast-quality aerial media that gives professionals a
-              competitive edge. Whether you&apos;re a realtor closing on a luxury
-              listing or a contractor documenting storm damage, we bring
-              the precision your work demands.
+              Phantom Sky Imaging was founded by Joshua Saylor — FAA Part 107
+              certified remote pilot — with one goal: deliver broadcast-quality
+              aerial media that gives professionals a competitive edge. Whether
+              you&apos;re a realtor closing on a luxury listing in Chester County or
+              a contractor documenting storm damage in Montgomery County, we
+              bring the precision your work demands.
             </p>
             <p className="psi-about-body">
               Every flight is backed by FAA Part 107 certification, liability
               insurance, and a commitment to arriving on-time with the right
-              equipment for the job.
+              equipment for the job. Proudly serving Chester, Delaware,
+              Montgomery, Bucks, and Philadelphia counties.
             </p>
             <ul className="psi-about-list">
               {['FAA Part 107 Certified','Fully Insured Flights','4K / RAW Capable','48-Hour Delivery','Real Estate Specialists','Insurance-Ready Reports'].map(item => (
@@ -352,7 +354,7 @@ export default function PhantomSkyImaging() {
                     <circle cx="12" cy="10" r="3" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                Serving Southeast Pennsylvania
+                Chester, Delaware, Montgomery, Bucks &amp; Philadelphia counties
               </div>
             </div>
           </div>
