@@ -80,8 +80,8 @@ export default function PhantomSkyImaging() {
             <div className="psi-stat-label">FAA Certified Pilot</div>
           </div>
           <div className="psi-stat">
-            <div className="psi-stat-num">4K<span>/</span>HD</div>
-            <div className="psi-stat-label">Video Resolution</div>
+            <div className="psi-stat-num">HD</div>
+            <div className="psi-stat-label">Video Quality</div>
           </div>
           <div className="psi-stat">
             <div className="psi-stat-num">48<span>hr</span></div>
@@ -145,7 +145,7 @@ export default function PhantomSkyImaging() {
               social media, and marketing campaigns.
             </p>
             <ul className="psi-service-features">
-              <li>4K / 60fps aerial footage</li>
+              <li>HD aerial footage</li>
               <li>Professionally color-graded</li>
               <li>Music-licensed delivery</li>
               <li>Social media cuts included</li>
@@ -310,7 +310,7 @@ export default function PhantomSkyImaging() {
               Montgomery, Bucks, and Philadelphia counties.
             </p>
             <ul className="psi-about-list">
-              {['FAA Part 107 Certified','Fully Insured Flights','4K / RAW Capable','48-Hour Delivery','Real Estate Specialists','Insurance-Ready Reports'].map(item => (
+              {['FAA Part 107 Certified','Fully Insured Flights','HD Quality','48-Hour Delivery','Real Estate Specialists','Insurance-Ready Reports'].map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

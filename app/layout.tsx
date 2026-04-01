@@ -125,7 +125,7 @@ const schemaServices = [
     name: 'Real Estate Video',
     url: 'https://phantomskyimaging.com/#services',
     description:
-      'Cinematic 4K aerial video tours for real estate listings. Smooth, stabilized footage professionally color-graded and set to licensed music. Delivered within 48 hours with social media cuts included.',
+      'Cinematic HD aerial video tours for real estate listings. Smooth, stabilized footage professionally color-graded and set to licensed music. Delivered within 48 hours with social media cuts included.',
     provider: { '@type': 'ProfessionalService', name: 'Phantom Sky Imaging', url: 'https://phantomskyimaging.com' },
     areaServed: { '@type': 'State', name: 'Southeast Pennsylvania' },
   },
