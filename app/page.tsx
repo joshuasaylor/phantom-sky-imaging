@@ -25,6 +25,7 @@ export default function PhantomSkyImaging() {
 
         <ul className="psi-nav-links">
           <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#process">Process</a></li>
           <li><a href="#about">About</a></li>
@@ -193,6 +194,117 @@ export default function PhantomSkyImaging() {
               <div className="psi-service-video-caption">
                 Sample footage — tree damage assessment, residential roof
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="psi-divider" />
+
+      {/* ── PRICING ── */}
+      <section className="psi-section" id="pricing">
+        <div className="psi-pricing-header">
+          <div className="psi-tag">Transparent Pricing</div>
+          <h2 className="psi-section-title">Simple, Flat-Rate<br />Packages</h2>
+          <p className="psi-pricing-sub">No hidden fees. No travel charges within Southeast Pennsylvania. Everything delivered via private download link.</p>
+        </div>
+
+        {/* Real Estate Photography */}
+        <div className="psi-pricing-group">
+          <div className="psi-pricing-group-label">Real Estate Photography</div>
+          <div className="psi-pricing-grid">
+            <div className="psi-price-card">
+              <div className="psi-price-tier">Starter</div>
+              <div className="psi-price-amount">$150</div>
+              <ul className="psi-price-features">
+                <li>10 edited aerials</li>
+                <li>JPEG delivery</li>
+                <li>48-hour turnaround</li>
+              </ul>
+              <a href="#contact" className="psi-price-cta">Book This</a>
+            </div>
+            <div className="psi-price-card psi-price-card--featured">
+              <div className="psi-price-badge">Most Popular</div>
+              <div className="psi-price-tier">Standard</div>
+              <div className="psi-price-amount">$200</div>
+              <ul className="psi-price-features">
+                <li>20 edited aerials</li>
+                <li>RAW + JPEG delivery</li>
+                <li>Golden hour scheduling</li>
+                <li>24-hour turnaround</li>
+              </ul>
+              <a href="#contact" className="psi-price-cta">Book This</a>
+            </div>
+            <div className="psi-price-card">
+              <div className="psi-price-tier">Premium</div>
+              <div className="psi-price-amount">$250</div>
+              <ul className="psi-price-features">
+                <li>25+ edited aerials</li>
+                <li>RAW + JPEG delivery</li>
+                <li>Golden hour + twilight option</li>
+                <li>Priority turnaround</li>
+              </ul>
+              <a href="#contact" className="psi-price-cta">Book This</a>
+            </div>
+          </div>
+        </div>
+
+        {/* Video Add-Ons */}
+        <div className="psi-pricing-group">
+          <div className="psi-pricing-group-label">Video Add-Ons <span>— added to any photo package</span></div>
+          <div className="psi-pricing-grid psi-pricing-grid--two">
+            <div className="psi-price-card">
+              <div className="psi-price-tier">Standard Video+</div>
+              <div className="psi-price-amount">+$125</div>
+              <ul className="psi-price-features">
+                <li>60-sec cinematic aerial video</li>
+                <li>Music-licensed</li>
+                <li>Professionally color-graded</li>
+              </ul>
+              <a href="#contact" className="psi-price-cta">Add On</a>
+            </div>
+            <div className="psi-price-card psi-price-card--featured">
+              <div className="psi-price-badge">Best Value</div>
+              <div className="psi-price-tier">Premium Video+</div>
+              <div className="psi-price-amount">+$175</div>
+              <ul className="psi-price-features">
+                <li>90-sec cinematic aerial video</li>
+                <li>3 vertical cuts for Instagram/Reels</li>
+                <li>Music-licensed + color-graded</li>
+              </ul>
+              <a href="#contact" className="psi-price-cta">Add On</a>
+            </div>
+          </div>
+          <div className="psi-pricing-combo">
+            Standard Photo + Standard Video = <strong>$325</strong> — the most popular combo for real estate agents.
+          </div>
+        </div>
+
+        {/* Roofing Inspection */}
+        <div className="psi-pricing-group">
+          <div className="psi-pricing-group-label">Roofing Inspection</div>
+          <div className="psi-pricing-grid psi-pricing-grid--two">
+            <div className="psi-price-card">
+              <div className="psi-price-tier">Inspection Video</div>
+              <div className="psi-price-amount">$200</div>
+              <ul className="psi-price-features">
+                <li>Full perimeter coverage</li>
+                <li>Timestamped footage</li>
+                <li>Close-up damage documentation</li>
+              </ul>
+              <a href="#contact" className="psi-price-cta">Book This</a>
+            </div>
+            <div className="psi-price-card psi-price-card--featured">
+              <div className="psi-price-badge">Recommended</div>
+              <div className="psi-price-tier">Inspection + Report</div>
+              <div className="psi-price-amount">$275</div>
+              <ul className="psi-price-features">
+                <li>Everything in Inspection Video</li>
+                <li>PDF summary report</li>
+                <li>Labeled damage photos</li>
+                <li>Insurance claim-ready</li>
+              </ul>
+              <a href="#contact" className="psi-price-cta">Book This</a>
             </div>
           </div>
         </div>

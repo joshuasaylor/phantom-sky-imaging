@@ -1202,4 +1202,190 @@ html {
   .psi-process-grid { grid-template-columns: 1fr; }
   .psi-footer { flex-direction: column; gap: 20px; text-align: center; }
   .psi-about-badge { bottom: -12px; right: -12px; }
+  .psi-pricing-grid { grid-template-columns: 1fr; }
+  .psi-pricing-grid--two { grid-template-columns: 1fr; }
+}
+
+/* ── PRICING ── */
+.psi-pricing-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.psi-pricing-header .psi-tag {
+  justify-content: center;
+}
+
+.psi-pricing-sub {
+  max-width: 520px;
+  margin: 16px auto 0;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.psi-pricing-group {
+  margin-bottom: 56px;
+}
+
+.psi-pricing-group:last-child {
+  margin-bottom: 0;
+}
+
+.psi-pricing-group-label {
+  font-family: var(--font-barlow-condensed, 'Barlow Condensed'), sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 24px;
+}
+
+.psi-pricing-group-label span {
+  color: var(--text-secondary);
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.psi-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.psi-pricing-grid--two {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 720px;
+}
+
+.psi-price-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: border-color 0.2s;
+}
+
+.psi-price-card:hover {
+  border-color: var(--border-light);
+}
+
+.psi-price-card--featured {
+  border-color: rgba(200, 168, 78, 0.35);
+  background: var(--bg-card-hover);
+}
+
+.psi-price-card--featured:hover {
+  border-color: rgba(200, 168, 78, 0.6);
+}
+
+.psi-price-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg-deep);
+  background: var(--gold);
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+  font-family: var(--font-barlow-condensed, 'Barlow Condensed'), sans-serif;
+}
+
+.psi-price-tier {
+  font-family: var(--font-barlow-condensed, 'Barlow Condensed'), sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.psi-price-amount {
+  font-family: var(--font-barlow-condensed, 'Barlow Condensed'), sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.psi-price-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  flex: 1;
+}
+
+.psi-price-features li {
+  font-size: 14px;
+  color: var(--text-secondary);
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.psi-price-features li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.psi-price-features li:last-child {
+  border-bottom: none;
+}
+
+.psi-price-cta {
+  display: block;
+  text-align: center;
+  padding: 11px 0;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  font-family: var(--font-barlow-condensed, 'Barlow Condensed'), sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.psi-price-cta:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--bg-deep);
+}
+
+.psi-price-card--featured .psi-price-cta {
+  background: var(--sky-glow);
+  border-color: rgba(200, 168, 78, 0.4);
+}
+
+.psi-pricing-combo {
+  margin-top: 20px;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.psi-pricing-combo strong {
+  color: var(--gold);
 }
