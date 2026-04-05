@@ -114,7 +114,7 @@ const schemaServices = [
     name: 'Real Estate Photography',
     url: 'https://phantomskyimaging.com/#services',
     description:
-      'High-resolution aerial still photography for real estate listings. Captures the full property footprint, lot size, neighborhood context, and surroundings. Delivered as MLS-ready edited images in RAW and JPEG formats within 48 hours.',
+      'High-resolution aerial still photography for real estate listings. Captures the full property footprint, lot size, neighborhood context, and surroundings. Delivered as MLS-ready edited JPEG images within 48 hours.',
     provider: { '@type': 'ProfessionalService', name: 'Phantom Sky Imaging', url: 'https://phantomskyimaging.com' },
     areaServed: { '@type': 'State', name: 'Southeast Pennsylvania' },
   },

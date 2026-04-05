@@ -123,7 +123,7 @@ export default function PhantomSkyImaging() {
               context, and surroundings — in high-resolution format.
             </p>
             <ul className="psi-service-features">
-              <li>High-res RAW + JPEG delivery</li>
+              <li>High-res JPEG delivery</li>
               <li>Golden hour scheduling available</li>
               <li>MLS-ready edited images</li>
               <li>Twilight & blue-hour shots</li>
@@ -229,7 +229,7 @@ export default function PhantomSkyImaging() {
               <div className="psi-price-amount">$200</div>
               <ul className="psi-price-features">
                 <li>20 edited aerials</li>
-                <li>RAW + JPEG delivery</li>
+                <li>JPEG delivery</li>
                 <li>Golden hour scheduling</li>
                 <li>24-hour turnaround</li>
               </ul>
@@ -240,7 +240,7 @@ export default function PhantomSkyImaging() {
               <div className="psi-price-amount">$250</div>
               <ul className="psi-price-features">
                 <li>25+ edited aerials</li>
-                <li>RAW + JPEG delivery</li>
+                <li>JPEG delivery</li>
                 <li>Golden hour + twilight option</li>
                 <li>Priority turnaround</li>
               </ul>
