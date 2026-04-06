@@ -329,11 +329,11 @@ export default function PhantomSkyImaging() {
 
           <div className="psi-portfolio-grid">
             <div className="psi-portfolio-item">
-              <img src="/steepleSunset.jpg" alt="Aerial view of church steeple at sunset over Jim Thorpe, Pennsylvania" className="psi-portfolio-img" />
+              <img src="/steepleSunset.jpg" alt="Aerial view of church steeple at sunset over Sellersville, Pennsylvania" className="psi-portfolio-img" />
               <div className="psi-portfolio-overlay">
                 <div className="psi-portfolio-meta">
                   <div className="psi-portfolio-cat">Real Estate</div>
-                  <div className="psi-portfolio-title-item">Jim Thorpe · Golden Hour</div>
+                  <div className="psi-portfolio-title-item">Sellersville · Golden Hour</div>
                 </div>
               </div>
             </div>
@@ -361,15 +361,6 @@ export default function PhantomSkyImaging() {
                 <div className="psi-portfolio-meta">
                   <div className="psi-portfolio-cat">Roofing Inspection</div>
                   <div className="psi-portfolio-title-item">Church Steeple · Corner Assessment</div>
-                </div>
-              </div>
-            </div>
-            <div className="psi-portfolio-item">
-              <img src="/roofLine_1.jpg" alt="Aerial drone roofing inspection showing roofline condition and surrounding property" className="psi-portfolio-img" />
-              <div className="psi-portfolio-overlay">
-                <div className="psi-portfolio-meta">
-                  <div className="psi-portfolio-cat">Roofing Inspection</div>
-                  <div className="psi-portfolio-title-item">Residential Roofline Survey</div>
                 </div>
               </div>
             </div>
