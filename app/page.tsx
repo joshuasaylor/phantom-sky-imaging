@@ -328,23 +328,51 @@ export default function PhantomSkyImaging() {
           </div>
 
           <div className="psi-portfolio-grid">
-            {[
-              { cat: 'Real Estate',       title: 'Lakefront Estate · 4.2 Acres' },
-              { cat: 'Real Estate',       title: 'New Construction Development' },
-              { cat: 'Roofing Inspection',title: 'Commercial Flat Roof · 18,000 sq ft' },
-              { cat: 'Real Estate Video', title: 'Luxury Waterfront · Cinematic Tour' },
-              { cat: 'Roofing Inspection',title: 'Hail Damage Assessment' },
-            ].map((item, i) => (
-              <div className="psi-portfolio-item" key={i}>
-                <div className="psi-portfolio-thumb" />
-                <div className="psi-portfolio-overlay">
-                  <div className="psi-portfolio-meta">
-                    <div className="psi-portfolio-cat">{item.cat}</div>
-                    <div className="psi-portfolio-title-item">{item.title}</div>
-                  </div>
+            <div className="psi-portfolio-item">
+              <img src="/steepleSunset.jpg" alt="Aerial view of church steeple at sunset over Jim Thorpe, Pennsylvania" className="psi-portfolio-img" />
+              <div className="psi-portfolio-overlay">
+                <div className="psi-portfolio-meta">
+                  <div className="psi-portfolio-cat">Real Estate</div>
+                  <div className="psi-portfolio-title-item">Jim Thorpe · Golden Hour</div>
                 </div>
               </div>
-            ))}
+            </div>
+            <div className="psi-portfolio-item">
+              <img src="/rooflineDemo.jpg" alt="Drone roofing inspection showing slate tile damage with annotated markers" className="psi-portfolio-img" />
+              <div className="psi-portfolio-overlay">
+                <div className="psi-portfolio-meta">
+                  <div className="psi-portfolio-cat">Roofing Inspection</div>
+                  <div className="psi-portfolio-title-item">Slate Tile Damage Assessment</div>
+                </div>
+              </div>
+            </div>
+            <div className="psi-portfolio-item">
+              <div className="psi-portfolio-thumb" />
+              <div className="psi-portfolio-overlay">
+                <div className="psi-portfolio-meta">
+                  <div className="psi-portfolio-cat">Real Estate</div>
+                  <div className="psi-portfolio-title-item">Coming Soon</div>
+                </div>
+              </div>
+            </div>
+            <div className="psi-portfolio-item">
+              <div className="psi-portfolio-thumb" />
+              <div className="psi-portfolio-overlay">
+                <div className="psi-portfolio-meta">
+                  <div className="psi-portfolio-cat">Real Estate Video</div>
+                  <div className="psi-portfolio-title-item">Coming Soon</div>
+                </div>
+              </div>
+            </div>
+            <div className="psi-portfolio-item">
+              <div className="psi-portfolio-thumb" />
+              <div className="psi-portfolio-overlay">
+                <div className="psi-portfolio-meta">
+                  <div className="psi-portfolio-cat">Roofing Inspection</div>
+                  <div className="psi-portfolio-title-item">Coming Soon</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
