@@ -347,29 +347,29 @@ export default function PhantomSkyImaging() {
               </div>
             </div>
             <div className="psi-portfolio-item">
-              <div className="psi-portfolio-thumb" />
-              <div className="psi-portfolio-overlay">
-                <div className="psi-portfolio-meta">
-                  <div className="psi-portfolio-cat">Real Estate</div>
-                  <div className="psi-portfolio-title-item">Coming Soon</div>
-                </div>
-              </div>
-            </div>
-            <div className="psi-portfolio-item">
-              <div className="psi-portfolio-thumb" />
-              <div className="psi-portfolio-overlay">
-                <div className="psi-portfolio-meta">
-                  <div className="psi-portfolio-cat">Real Estate Video</div>
-                  <div className="psi-portfolio-title-item">Coming Soon</div>
-                </div>
-              </div>
-            </div>
-            <div className="psi-portfolio-item">
-              <div className="psi-portfolio-thumb" />
+              <img src="/steepleFrontRight.jpg" alt="Close-up aerial drone shot of church steeple roofline and clock tower detail" className="psi-portfolio-img" />
               <div className="psi-portfolio-overlay">
                 <div className="psi-portfolio-meta">
                   <div className="psi-portfolio-cat">Roofing Inspection</div>
-                  <div className="psi-portfolio-title-item">Coming Soon</div>
+                  <div className="psi-portfolio-title-item">Church Steeple · Roofline Detail</div>
+                </div>
+              </div>
+            </div>
+            <div className="psi-portfolio-item">
+              <img src="/steepleFrontLeft.jpg" alt="Aerial drone inspection of church steeple corner roofline and gutter condition" className="psi-portfolio-img" />
+              <div className="psi-portfolio-overlay">
+                <div className="psi-portfolio-meta">
+                  <div className="psi-portfolio-cat">Roofing Inspection</div>
+                  <div className="psi-portfolio-title-item">Church Steeple · Corner Assessment</div>
+                </div>
+              </div>
+            </div>
+            <div className="psi-portfolio-item">
+              <img src="/roofLine_1.jpg" alt="Aerial drone roofing inspection showing roofline condition and surrounding property" className="psi-portfolio-img" />
+              <div className="psi-portfolio-overlay">
+                <div className="psi-portfolio-meta">
+                  <div className="psi-portfolio-cat">Roofing Inspection</div>
+                  <div className="psi-portfolio-title-item">Residential Roofline Survey</div>
                 </div>
               </div>
             </div>
