@@ -99,8 +99,9 @@ export default function PhantomSkyImaging() {
             <h2 className="psi-section-title">Specialized<br />Aerial Services</h2>
           </div>
           <p className="psi-section-desc">
-            From listing-day real estate shoots to detailed rooftop inspection
-            footage — precision aerial media tailored to your project&apos;s needs.
+            From listing-day real estate shoots to commercial inspections,
+            rooftop documentation, and live event coverage — precision aerial
+            media tailored to your project&apos;s needs.
           </p>
         </div>
 
@@ -196,6 +197,60 @@ export default function PhantomSkyImaging() {
               </div>
             </div>
           </div>
+
+          <div className="psi-service-card">
+            <div className="psi-service-num">04</div>
+            <div className="psi-service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="40" height="32" rx="2" stroke="currentColor" strokeWidth="1.5"/>
+                <path d="M4 16h40" stroke="currentColor" strokeWidth="1.5"/>
+                <path d="M16 8v8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <path d="M32 8v8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <circle cx="34" cy="10" r="5" stroke="currentColor" strokeWidth="1.5"/>
+                <path d="M34 8v2l1.5 1.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <path d="M12 26h10M12 32h6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
+            </div>
+            <div className="psi-service-name">Commercial Inspection</div>
+            <p className="psi-service-desc">
+              Comprehensive aerial inspection for commercial properties, warehouses,
+              and large-scale facilities. Document structural conditions, HVAC units,
+              signage, and parking lots safely from above.
+            </p>
+            <ul className="psi-service-features">
+              <li>Full facility perimeter coverage</li>
+              <li>Flat roof & HVAC documentation</li>
+              <li>Timestamped HD footage</li>
+              <li>Insurance & maintenance-ready reports</li>
+            </ul>
+          </div>
+
+          <div className="psi-service-card">
+            <div className="psi-service-num">05</div>
+            <div className="psi-service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 4l3 9h9l-7 5 3 9-8-6-8 6 3-9-7-5h9z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
+                <path d="M8 36c0 0 4-4 16-4s16 4 16 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <path d="M4 44h40" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <circle cx="12" cy="28" r="2" stroke="currentColor" strokeWidth="1.5"/>
+                <circle cx="36" cy="28" r="2" stroke="currentColor" strokeWidth="1.5"/>
+              </svg>
+            </div>
+            <div className="psi-service-name">Events Coverage</div>
+            <p className="psi-service-desc">
+              Elevate your event with cinematic aerial footage. From outdoor
+              festivals and community gatherings to sporting events and
+              corporate functions — we capture the full scale and energy
+              from above.
+            </p>
+            <ul className="psi-service-features">
+              <li>Outdoor festivals & gatherings</li>
+              <li>Sporting events & competitions</li>
+              <li>Corporate & private functions</li>
+              <li>Highlight reel delivery</li>
+            </ul>
+          </div>
+
         </div>
       </section>
 
