@@ -214,52 +214,8 @@ export default function PhantomSkyImaging() {
             </ul>
           </div>
 
-          <div className="psi-service-card psi-service-card--wide" style={{ gridColumn: 'span 2' }}>
-            <div className="psi-service-num">05</div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px' }}>
-              <div>
-                <div className="psi-service-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M36 20c0-6.627-5.373-12-12-12S12 13.373 12 20c0 2.196.593 4.252 1.628 6.015L6 38h36l-7.628-11.985A11.953 11.953 0 0036 20z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
-                    <path d="M24 14v8l4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M8 44h32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                    <path d="M20 44v-4h8v4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-                <div className="psi-service-name">Storm Damage Assessment</div>
-                <p className="psi-service-desc">
-                  Rapid aerial documentation after severe weather events. We
-                  provide fast, safe documentation of wind, hail, and fallen tree
-                  damage for homeowners, contractors, and insurance adjusters —
-                  without putting anyone at risk.
-                </p>
-              </div>
-              <div>
-                <ul className="psi-service-features" style={{ marginTop: '56px' }}>
-                  <li>Same-day or next-day response available</li>
-                  <li>Fallen tree & structural impact documentation</li>
-                  <li>Hail strike pattern mapping</li>
-                  <li>Insurance claim-ready footage</li>
-                  <li>Before &amp; after comparison available</li>
-                  <li>Timestamped HD video delivery</li>
-                </ul>
-              </div>
-            </div>
-            <div className="psi-service-video">
-              <iframe
-                src="https://player.cloudinary.com/embed/?cloud_name=dbltkecgm&public_id=treeOnRoof_r8mwa2&autoplay=true&muted=true&loop=true&controls=false"
-                className="psi-service-video-el"
-                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-                allowFullScreen
-              />
-              <div className="psi-service-video-caption">
-                Sample footage — fallen tree storm damage assessment, residential roof
-              </div>
-            </div>
-          </div>
-
           <div className="psi-service-card">
-            <div className="psi-service-num">06</div>
+            <div className="psi-service-num">05</div>
             <div className="psi-service-icon">
               <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24 4l3 9h9l-7 5 3 9-8-6-8 6 3-9-7-5h9z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
@@ -282,6 +238,48 @@ export default function PhantomSkyImaging() {
               <li>Corporate & private functions</li>
               <li>Highlight reel delivery</li>
             </ul>
+          </div>
+
+          <div className="psi-service-card psi-service-card--wide" style={{ gridColumn: 'span 2' }}>
+            <div className="psi-service-num">06</div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px' }}>
+              <div>
+                <div className="psi-service-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 20c0-6.627-5.373-12-12-12S12 13.373 12 20c0 2.196.593 4.252 1.628 6.015L6 38h36l-7.628-11.985A11.953 11.953 0 0036 20z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/>
+                    <path d="M24 14v8l4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M8 44h32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                    <path d="M20 44v-4h8v4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+                <div className="psi-service-name">Storm Damage Assessment</div>
+                <p className="psi-service-desc">
+                  Rapid aerial documentation after severe weather events. We
+                  provide fast, safe documentation of wind and fallen tree
+                  damage for homeowners, contractors, and insurance adjusters —
+                  without putting anyone at risk.
+                </p>
+              </div>
+              <div>
+                <ul className="psi-service-features" style={{ marginTop: '56px' }}>
+                  <li>Same-day or next-day response available</li>
+                  <li>Fallen tree & structural impact documentation</li>
+                  <li>Insurance claim-ready footage</li>
+                  <li>Timestamped HD video delivery</li>
+                </ul>
+              </div>
+            </div>
+            <div className="psi-service-video">
+              <iframe
+                src="https://player.cloudinary.com/embed/?cloud_name=dbltkecgm&public_id=treeOnRoof_r8mwa2&autoplay=true&muted=true&loop=true&controls=false"
+                className="psi-service-video-el"
+                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                allowFullScreen
+              />
+              <div className="psi-service-video-caption">
+                Sample footage — fallen tree storm damage assessment, residential roof
+              </div>
+            </div>
           </div>
 
         </div>
