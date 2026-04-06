@@ -471,7 +471,7 @@ export default function PhantomSkyImaging() {
       <section className="psi-section" id="about">
         <div className="psi-about">
           <div className="psi-about-visual">
-            <div className="psi-about-img-placeholder" />
+            <img src="/headshot.jpg" alt="Joshua Saylor, FAA Part 107 certified drone pilot and founder of Phantom Sky Imaging" className="psi-about-img" />
             <div className="psi-about-badge">
               <div className="psi-about-badge-num">FAA</div>
               <div className="psi-about-badge-text">Part 107 Certified</div>
