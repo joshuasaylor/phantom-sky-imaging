@@ -1243,18 +1243,27 @@ html {
   .psi-nav { padding: 0 20px; }
   .psi-nav-links { display: none; }
 
-  /* Hero */
-  .psi-hero-title { font-size: 52px; }
-  .psi-hero-content { padding: 0 20px; padding-top: var(--nav-h); }
+  /* Hero — stack content above stats on mobile */
+  .psi-hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .psi-hero-title { font-size: 46px; }
+  .psi-hero-content {
+    padding: 0 20px;
+    padding-top: calc(var(--nav-h) + 40px);
+    flex: 1;
+  }
 
-  /* Hero stats — stack vertically, full-width */
+  /* Hero stats — full-width bar below content */
   .psi-hero-stats {
     flex-direction: column;
     gap: 24px;
     width: 100%;
     max-width: 100%;
-    padding: 32px 20px;
-    margin-top: 40px;
+    margin-top: 0;
+    padding: 32px 20px 40px;
   }
   .psi-stat {
     border-right: none;
