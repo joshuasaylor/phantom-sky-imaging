@@ -1193,6 +1193,21 @@ html {
   .psi-portfolio-item:nth-child(4) { grid-column: span 1; }
 }
 
+/* ── WIDE SERVICE CARD LAYOUT ── */
+.psi-service-card--wide {
+  grid-column: span 2;
+}
+
+.psi-service-inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.psi-service-features--offset {
+  margin-top: 56px;
+}
+
 /* ── SERVICE VIDEO ── */
 .psi-service-video {
   margin-top: 32px;
@@ -1223,20 +1238,67 @@ html {
 
 @media (max-width: 640px) {
   :root { --section-gap: 64px; }
+
+  /* Navigation */
+  .psi-nav { padding: 0 20px; }
   .psi-nav-links { display: none; }
+
+  /* Hero */
   .psi-hero-title { font-size: 52px; }
+  .psi-hero-content { padding: 0 20px; padding-top: var(--nav-h); }
+
+  /* Hero stats — stack vertically, full-width */
+  .psi-hero-stats {
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 100%;
+    padding: 32px 20px;
+    margin-top: 40px;
+  }
+  .psi-stat {
+    border-right: none;
+    padding: 0;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+  }
+  .psi-stat:last-child { border-bottom: none; }
+
+  /* Sections */
+  .psi-section { padding: 64px 20px; }
+  .psi-cta-bg { padding: 64px 20px; }
+
+  /* Services — collapse full-width cards and their inner 2-col grids */
   .psi-services-grid { grid-template-columns: 1fr; }
+  .psi-service-card--wide { grid-column: span 1; }
+  .psi-service-inner-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .psi-service-features--offset { margin-top: 0; }
+
+  /* Video iframe — shorter height on mobile */
+  .psi-service-video-el { height: 220px; }
+
+  /* Portfolio */
   .psi-portfolio-grid { grid-template-columns: 1fr; }
   .psi-portfolio-item { height: 220px; }
-  .psi-hero-stats { flex-direction: column; gap: 24px; }
-  .psi-stat { border-right: none; padding: 0; border-bottom: 1px solid var(--border); padding-bottom: 24px; }
-  .psi-stat:last-child { border-bottom: none; }
-  .psi-form-row { grid-template-columns: 1fr; }
+
+  /* Process */
   .psi-process-grid { grid-template-columns: 1fr; }
-  .psi-footer { flex-direction: column; gap: 20px; text-align: center; }
-  .psi-about-badge { bottom: -12px; right: -12px; }
+
+  /* Pricing */
   .psi-pricing-grid { grid-template-columns: 1fr; }
   .psi-pricing-grid--two { grid-template-columns: 1fr; }
+
+  /* Contact form */
+  .psi-form-row { grid-template-columns: 1fr; }
+
+  /* Footer */
+  .psi-footer { flex-direction: column; gap: 20px; text-align: center; }
+
+  /* About badge */
+  .psi-about-badge { bottom: -12px; right: -12px; }
 }
 
 /* ── PRICING ── */

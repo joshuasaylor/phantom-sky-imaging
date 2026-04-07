@@ -154,9 +154,9 @@ export default function PhantomSkyImaging() {
             </ul>
           </div>
 
-          <div className="psi-service-card" style={{ gridColumn: 'span 2' }}>
+          <div className="psi-service-card psi-service-card--wide">
             <div className="psi-service-num">03</div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px' }}>
+            <div className="psi-service-inner-grid">
               <div>
                 <div className="psi-service-icon">
                   <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +175,7 @@ export default function PhantomSkyImaging() {
                 </p>
               </div>
               <div>
-                <ul className="psi-service-features" style={{ marginTop: '56px' }}>
+                <ul className="psi-service-features psi-service-features--offset">
                   <li>Full perimeter coverage</li>
                   <li>Close-up damage documentation</li>
                   <li>Timestamped footage for records</li>
@@ -240,9 +240,9 @@ export default function PhantomSkyImaging() {
             </ul>
           </div>
 
-          <div className="psi-service-card psi-service-card--wide" style={{ gridColumn: 'span 2' }}>
+          <div className="psi-service-card psi-service-card--wide">
             <div className="psi-service-num">06</div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px' }}>
+            <div className="psi-service-inner-grid">
               <div>
                 <div className="psi-service-icon">
                   <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -261,7 +261,7 @@ export default function PhantomSkyImaging() {
                 </p>
               </div>
               <div>
-                <ul className="psi-service-features" style={{ marginTop: '56px' }}>
+                <ul className="psi-service-features psi-service-features--offset">
                   <li>Same-day or next-day response available</li>
                   <li>Fallen tree & structural impact documentation</li>
                   <li>Insurance claim-ready footage</li>
