@@ -1,0 +1,11 @@
+# robots.txt — Phantom Sky Imaging
+# https://phantomskyimaging.com
+
+User-agent: *
+Allow: /
+
+# Block Next.js internals from indexing
+Disallow: /_next/
+Disallow: /api/
+
+Sitemap: https://phantomskyimaging.com/sitemap.xml

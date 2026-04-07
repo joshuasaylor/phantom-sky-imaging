@@ -18,6 +18,7 @@ const barlowCondensed = Barlow_Condensed({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://phantomskyimaging.com'),
   title: 'Phantom Sky Imaging | Drone Photography & Videography — Southeast Pennsylvania',
   description:
     'FAA Part 107 certified drone photography and videography for real estate listings and roofing inspections. Serving Chester, Delaware, Montgomery, and Bucks counties in Southeast Pennsylvania — 48-hour delivery.',
@@ -32,12 +33,21 @@ export const metadata: Metadata = {
     siteName: 'Phantom Sky Imaging',
     type: 'website',
     locale: 'en_US',
+    images: [
+      {
+        url: '/steepleFrontRight.jpg',
+        width: 1920,
+        height: 1080,
+        alt: 'Aerial drone shot of church steeple roofline — Phantom Sky Imaging, Southeast Pennsylvania',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Phantom Sky Imaging | Drone Photography & Videography',
     description:
       'FAA Part 107 certified aerial photography and videography for real estate and roofing inspections in Southeast Pennsylvania.',
+    images: ['/steepleFrontRight.jpg'],
   },
 }
 
@@ -63,6 +73,9 @@ const schemaProfessionalService = {
     'Real Estate Photography',
     'Real Estate Video',
     'Roofing Inspection Video',
+    'Commercial Inspection',
+    'Events Aerial Coverage',
+    'Storm Damage Assessment',
   ],
   hasCredential: {
     '@type': 'EducationalOccupationalCredential',
@@ -76,6 +89,9 @@ const schemaProfessionalService = {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Real Estate Drone Photography' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Real Estate Drone Video' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Roofing Inspection Video' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial Property Inspection' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Events Aerial Coverage' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Storm Damage Assessment' } },
     ],
   },
   knowsAbout: ['Drone Photography', 'Aerial Videography', 'Real Estate Marketing', 'Roofing Inspection', 'FAA Part 107 Regulations'],
@@ -140,6 +156,41 @@ const schemaServices = [
     provider: { '@type': 'ProfessionalService', name: 'Phantom Sky Imaging', url: 'https://phantomskyimaging.com' },
     areaServed: { '@type': 'State', name: 'Southeast Pennsylvania' },
     audience: { '@type': 'Audience', audienceType: 'Roofing Contractors, Insurance Adjusters, Property Managers' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Commercial Aerial Inspection',
+    name: 'Commercial Inspection',
+    url: 'https://phantomskyimaging.com/#services',
+    description:
+      'Comprehensive aerial inspection for commercial properties, warehouses, and large-scale facilities. Documents structural conditions, HVAC units, signage, and parking lots safely from above. Timestamped HD footage and insurance-ready reports.',
+    provider: { '@type': 'ProfessionalService', name: 'Phantom Sky Imaging', url: 'https://phantomskyimaging.com' },
+    areaServed: { '@type': 'State', name: 'Southeast Pennsylvania' },
+    audience: { '@type': 'Audience', audienceType: 'Commercial Property Owners, Facility Managers, Insurance Adjusters' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Events Aerial Videography',
+    name: 'Events Coverage',
+    url: 'https://phantomskyimaging.com/#services',
+    description:
+      'Cinematic aerial footage for outdoor festivals, community gatherings, sporting events, and corporate functions across Southeast Pennsylvania. Captures full scale and energy from above with highlight reel delivery.',
+    provider: { '@type': 'ProfessionalService', name: 'Phantom Sky Imaging', url: 'https://phantomskyimaging.com' },
+    areaServed: { '@type': 'State', name: 'Southeast Pennsylvania' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Storm Damage Aerial Assessment',
+    name: 'Storm Damage Assessment',
+    url: 'https://phantomskyimaging.com/#services',
+    description:
+      'Rapid aerial documentation after severe weather events. Safe, same-day or next-day documentation of wind and fallen tree damage for homeowners, contractors, and insurance adjusters. Timestamped HD footage and insurance claim-ready deliverables.',
+    provider: { '@type': 'ProfessionalService', name: 'Phantom Sky Imaging', url: 'https://phantomskyimaging.com' },
+    areaServed: { '@type': 'State', name: 'Southeast Pennsylvania' },
+    audience: { '@type': 'Audience', audienceType: 'Homeowners, Contractors, Insurance Adjusters' },
   },
 ]
 

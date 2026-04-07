@@ -46,8 +46,8 @@ export default function PhantomSkyImaging() {
           </div>
 
           <h1 className="psi-hero-title">
-            <em>Aerial</em>
-            <span className="accent">Imagery</span>
+            <em>Drone</em>
+            <span className="accent">Photography</span>
             Elevated.
           </h1>
 
@@ -415,7 +415,7 @@ export default function PhantomSkyImaging() {
 
           <div className="psi-portfolio-grid">
             <div className="psi-portfolio-item">
-              <img src="/steepleSunset.jpg" alt="Aerial view of church steeple at sunset over Sellersville, Pennsylvania" className="psi-portfolio-img" />
+              <img src="/steepleSunset.jpg" alt="Aerial view of church steeple at sunset over Sellersville, Pennsylvania" className="psi-portfolio-img" width="1020" height="1020" />
               <div className="psi-portfolio-overlay">
                 <div className="psi-portfolio-meta">
                   <div className="psi-portfolio-cat">Real Estate</div>
@@ -424,7 +424,7 @@ export default function PhantomSkyImaging() {
               </div>
             </div>
             <div className="psi-portfolio-item">
-              <img src="/rooflineDemo.jpg" alt="Drone roofing inspection showing slate tile damage with annotated markers" className="psi-portfolio-img" />
+              <img src="/rooflineDemo.jpg" alt="Drone roofing inspection showing slate tile damage with annotated markers" className="psi-portfolio-img" width="1564" height="1950" />
               <div className="psi-portfolio-overlay">
                 <div className="psi-portfolio-meta">
                   <div className="psi-portfolio-cat">Roofing Inspection</div>
@@ -433,7 +433,7 @@ export default function PhantomSkyImaging() {
               </div>
             </div>
             <div className="psi-portfolio-item">
-              <img src="/steepleFrontRight.jpg" alt="Close-up aerial drone shot of church steeple roofline and clock tower detail" className="psi-portfolio-img" />
+              <img src="/steepleFrontRight.jpg" alt="Close-up aerial drone shot of church steeple roofline and clock tower detail" className="psi-portfolio-img" width="1920" height="1080" />
               <div className="psi-portfolio-overlay">
                 <div className="psi-portfolio-meta">
                   <div className="psi-portfolio-cat">Roofing Inspection</div>
@@ -442,7 +442,7 @@ export default function PhantomSkyImaging() {
               </div>
             </div>
             <div className="psi-portfolio-item">
-              <img src="/steepleFrontLeft.jpg" alt="Aerial drone inspection of church steeple corner roofline and gutter condition" className="psi-portfolio-img" />
+              <img src="/steepleFrontLeft.jpg" alt="Aerial drone inspection of church steeple corner roofline and gutter condition" className="psi-portfolio-img" width="1920" height="1080" />
               <div className="psi-portfolio-overlay">
                 <div className="psi-portfolio-meta">
                   <div className="psi-portfolio-cat">Roofing Inspection</div>
@@ -502,7 +502,7 @@ export default function PhantomSkyImaging() {
       <section className="psi-section" id="about">
         <div className="psi-about">
           <div className="psi-about-visual">
-            <img src="/headshot.jpg" alt="Joshua Saylor, FAA Part 107 certified drone pilot and founder of Phantom Sky Imaging" className="psi-about-img" />
+            <img src="/headshot.jpg" alt="Joshua Saylor, FAA Part 107 certified drone pilot and founder of Phantom Sky Imaging" className="psi-about-img" width="2048" height="914" />
             <div className="psi-about-badge">
               <div className="psi-about-badge-num">FAA</div>
               <div className="psi-about-badge-text">Part 107 Certified</div>
